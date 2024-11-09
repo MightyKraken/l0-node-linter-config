@@ -1,0 +1,36 @@
+{
+    "name": "@mightykraken/l0-node-linter-config",
+    "version": "1.0.0",
+    "main": "index.js",
+    "files": [
+        "./prettier/.prettierrc"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "semantic-release": "semantic-release"
+    },
+    "devDependencies": {
+        "@semantic-release/git": "^10.0.1",
+        "semantic-release": "^24.2.0"
+    },
+    "peerDependencies": {
+        "prettier": ">=3.0.0"
+    },
+    "author": "Sabik Abtahee",
+    "license": "MIT",
+    "description": "Linting and formatting configurations for Prettier, ESLint, HTMLHint, and Stylelint.",
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "eslint",
+        "prettier",
+        "stylelint",
+        "htmlhint",
+        "configurations"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MightyKraken/l0-node-linter-config.git"
+    }
+}
