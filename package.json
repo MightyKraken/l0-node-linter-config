@@ -1,6 +1,6 @@
 {
 	"name": "@mightykraken/l0-node-linter-config",
-	"version": "1.10.1",
+	"version": "1.10.2",
 	"main": "index.js",
 	"files": [
 		"prettier/index.js",
@@ -10,7 +10,8 @@
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"semantic-release": "semantic-release",
 		"postprepare": "npx husky init && echo npx lint-staged > .husky/pre-commit",
-		"postinstall": "npx husky init && echo npx lint-staged > .husky/pre-commit"
+		"postinstall": "npx husky init && echo npx lint-staged > .husky/pre-commit",
+		"prepare": "husky"
 	},
 	"devDependencies": {
 		"@semantic-release/git": "^10.0.1",
