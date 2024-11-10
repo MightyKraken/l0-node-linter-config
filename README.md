@@ -1,3 +1,7 @@
+# Npm link
+
+https://www.npmjs.com/package/@mightykraken/l0-node-linter-config
+
 # Install
 
 npm install @mightykraken/l0-node-linter-config --save-dev

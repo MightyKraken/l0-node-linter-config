@@ -8,15 +8,12 @@
 	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"semantic-release": "semantic-release",
-		"prepare": "npx husky init && echo npx lint-staged > .husky/pre-commit"
+		"semantic-release": "semantic-release"
 	},
 	"devDependencies": {
 		"@semantic-release/git": "^10.0.1",
-		"semantic-release": "^24.2.0",
-		"husky": "^9.1.6",
-		"lint-staged": "^12.3.2",
-		"prettier": "^3.3.3"
+		"semantic-release": "^24.2.0"
+
 	},
 	"peerDependencies": {
 		"husky": ">=9.1.6",
