@@ -13,4 +13,4 @@ const config = {
     "endOfLine": "lf"
 };
 
-export default config;
+module.exports = config;
