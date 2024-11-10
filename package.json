@@ -1,6 +1,6 @@
 {
 	"name": "@mightykraken/l0-node-linter-config",
-	"version": "1.8.0",
+	"version": "1.10.0",
 	"main": "index.js",
 	"files": [
 		"prettier/index.js",
