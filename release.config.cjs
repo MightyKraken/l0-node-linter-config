@@ -7,7 +7,7 @@ module.exports = {
 		[
 			"@semantic-release/git",
 			{
-				assets: ["package.json"],
+				assets: ["package.json", "!package.json:prepare"],
 				message: "bump(version): ${nextRelease.version} [skip ci]",
 			},
 		],
