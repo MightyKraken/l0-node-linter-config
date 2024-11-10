@@ -9,9 +9,7 @@
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"semantic-release": "semantic-release",
-		"prepare": "npx husky init && echo npx lint-staged > .husky/pre-commit",
-		"postprepare": "npx husky init && echo npx lint-staged > .husky/pre-commit",
-		"postinstall": "npx husky init && echo npx lint-staged > .husky/pre-commit"
+		"prepare": "npx husky init && echo npx lint-staged > .husky/pre-commit"
 	},
 	"devDependencies": {
 		"@semantic-release/git": "^10.0.1",
