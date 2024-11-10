@@ -11,6 +11,6 @@ const config = {
     "bracketSameLine": false,
     "arrowParens": "always",
     "endOfLine": "lf"
-}
+};
 
 export default config;
