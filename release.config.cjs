@@ -4,12 +4,12 @@ module.exports = {
 		"@semantic-release/commit-analyzer",
 		"@semantic-release/release-notes-generator",
 		"@semantic-release/npm",
-		// [
-		// 	"@semantic-release/git",
-		// 	{
-		// 		assets: ["package.json", "!package.json:prepare"],
-		// 		message: "bump(version): ${nextRelease.version} [skip ci]",
-		// 	},
-		// ],
+		[
+			"@semantic-release/git",
+			{
+				assets: ["package.json", "!package.json:prepare"],
+				message: "bump(version): ${nextRelease.version} [skip ci]",
+			},
+		],
 	],
 };

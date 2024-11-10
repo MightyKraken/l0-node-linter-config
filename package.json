@@ -3,8 +3,7 @@
 	"version": "0.0.0-semantically-released",
 	"main": "index.js",
 	"files": [
-		"prettier/index.js",
-		".husky"
+		"prettier/index.js"
 	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
