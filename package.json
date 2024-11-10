@@ -19,6 +19,11 @@
 		"lint-staged": "^12.3.2",
 		"prettier": "^3.3.3"
 	},
+	"peerDependencies": {
+		"husky": ">=9.1.6",
+		"lint-staged": ">=12.3.2",
+		"prettier": ">=3.3.3"
+	},
 	"author": "Sabik Abtahee",
 	"license": "MIT",
 	"description": "Linting and formatting configurations for Prettier, ESLint, HTMLHint, and Stylelint.",
