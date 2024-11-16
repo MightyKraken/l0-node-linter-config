@@ -1,6 +1,6 @@
 {
 	"name": "@mightykraken/l0-node-linter-config",
-	"version": "1.10.7",
+	"version": "1.10.8",
 	"main": "index.js",
 	"files": [
 		"prettier/index.js"
@@ -14,7 +14,7 @@
 		"@semantic-release/git": "^10.0.1",
 		"eslint": "^9.14.0",
 		"semantic-release": "^24.2.0",
-        "husky": "^9.1.6",
+		"husky": "^9.1.6",
 		"lint-staged": "^12.3.2",
 		"prettier": "^3.3.3"
 	},
