@@ -1,3 +1,3 @@
-module.exports ={
-    prettier : require("./prettier/index.js")
-}
+module.exports = {
+    prettier: require("./prettier/index.js"),
+};

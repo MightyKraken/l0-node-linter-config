@@ -1,43 +1,45 @@
 {
-	"name": "@mightykraken/l0-node-linter-config",
-	"version": "1.10.9",
-	"main": "index.js",
-	"files": [
-		"prettier/index.js"
-	],
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"semantic-release": "semantic-release",
-		"prepare": "husky"
-	},
-	"dependencies": {
-		"@semantic-release/git": "^10.0.1",
-		"eslint": "^9.14.0",
-		"semantic-release": "^24.2.0",
-		"husky": "^9.1.6",
-		"lint-staged": "^12.3.2",
-		"prettier": "^3.3.3"
-	},
-	"author": "Sabik Abtahee",
-	"license": "MIT",
-	"description": "Linting and formatting configurations for Prettier, ESLint, HTMLHint, and Stylelint.",
-	"publishConfig": {
-		"access": "public"
-	},
-	"keywords": [
-		"eslint",
-		"prettier",
-		"stylelint",
-		"htmlhint",
-		"configurations"
-	],
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/MightyKraken/l0-node-linter-config.git"
-	},
-	"lint-staged": {
-		"*.{js,jsx,ts,tsx,json,css,md,html,scss}": [
-			"prettier --config ./prettier/index.js --write"
-		]
-	}
+    "name": "@mightykraken/l0-node-linter-config",
+    "version": "1.10.9",
+    "main": "index.js",
+    "files": [
+        "prettier/index.js"
+    ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "semantic-release": "semantic-release",
+        "prepare": "husky",
+        "prettier-fix": "prettier --write .",
+        "prettier-check": "prettier --check ."
+    },
+    "dependencies": {
+        "@semantic-release/git": "^10.0.1",
+        "eslint": "^9.14.0",
+        "semantic-release": "^24.2.0",
+        "husky": "^9.1.6",
+        "lint-staged": "^12.3.2",
+        "prettier": "^3.3.3"
+    },
+    "author": "Sabik Abtahee",
+    "license": "MIT",
+    "description": "Linting and formatting configurations for Prettier, ESLint, HTMLHint, and Stylelint.",
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "eslint",
+        "prettier",
+        "stylelint",
+        "htmlhint",
+        "configurations"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MightyKraken/l0-node-linter-config.git"
+    },
+    "lint-staged": {
+        "*.{js,jsx,ts,tsx,json,css,md,html,scss}": [
+            "prettier --config ./prettier/index.js --write"
+        ]
+    }
 }

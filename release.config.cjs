@@ -1,15 +1,15 @@
 module.exports = {
-	branches: ["main", { name: "next", prerelease: true }],
-	plugins: [
-		"@semantic-release/commit-analyzer",
-		"@semantic-release/release-notes-generator",
-		"@semantic-release/npm",
-		[
-			"@semantic-release/git",
-			{
-				assets: ["package.json", "!package.json:prepare"],
-				message: "bump(version): ${nextRelease.version} [skip ci]",
-			},
-		],
-	],
+    branches: ["main", { name: "next", prerelease: true }],
+    plugins: [
+        "@semantic-release/commit-analyzer",
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/npm",
+        [
+            "@semantic-release/git",
+            {
+                assets: ["package.json", "!package.json:prepare"],
+                message: "bump(version): ${nextRelease.version} [skip ci]",
+            },
+        ],
+    ],
 };
